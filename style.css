@@ -2,3 +2,7 @@ button {
   border-style: none;
   cursor: pointer;
 }
+
+.control_panel {
+  background-color: black;
+}
