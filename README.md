@@ -13,6 +13,8 @@
 
 Два рабочих примера:
 
+Рабочий пример страницы доступен по этой [ссылке](https://weffy61.github.io/video-player/)
+
 - Страница с минимальными настройками — [example_min.html](./example_min.html)
 - Страница с максимальными настройками — [example_max.html](./example_max.html)
 
