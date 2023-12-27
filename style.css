@@ -9,6 +9,7 @@
 
 .control_panel {
   background-color: black;
+  display: flex;
 }
 
 .js-video-container {
@@ -21,4 +22,8 @@
   box-shadow: 0 0 10px rgba(0,0,0,1);
   display: flex;
   flex-direction: column;
+}
+
+.just_for_space {
+  flex-grow: 1;
 }
