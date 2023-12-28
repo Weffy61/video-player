@@ -14,7 +14,7 @@
   display: flex;
 }
 
-.js-video-container {
+.player-container {
   flex-grow: 1;
 }
 
