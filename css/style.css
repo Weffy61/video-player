@@ -61,7 +61,6 @@ html {
   border-radius: 5px;
 }
 
-
 .dot {
   height: 8px;
   width: 8px;
@@ -72,4 +71,12 @@ html {
   border-color: white;
   box-shadow: 1px 1px black;
   margin: -8px;
+  opacity: 0;
+}
+
+.video_progress:hover .dot{
+  opacity: 1;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
 }
