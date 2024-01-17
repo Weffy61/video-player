@@ -4,7 +4,7 @@
     <title>Video player</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/fonts.css"/>
     <link type="image/x-icon" href="favicon.png" rel="shortcut icon">
     <script src="https://kit.fontawesome.com/594ec669f7.js" crossorigin="anonymous"></script>
   </head>
@@ -26,18 +26,19 @@
             <i class="fa fa-volume-up fa-lg" aria-hidden="true"></i>
           </button>
         </div>
-        <div class="progress_bar" style="color: white;">
+        <div class="progress_bar">
           <div class="current_time">
             <span class="js-current-time"></span>
           </div>
-          <div class="video_progress"></div>
-
+          <div class="js-progress video_progress">
+            <div class="js-progress-slider video_slider"></div>
+            <span class="dot"></span>
+          </div>
           <div class="video_duration">
             <span class="js-duration"></span>
           </div>
-         </div>
+        </div>
 
-        <div class="just_for_space"></div>
         <div class="right-buttons">
           <button class="js-fullscreen-button player_buttons">
             <i class="fa-solid fa-expand fa-xl" aria-hidden="true"></i>
