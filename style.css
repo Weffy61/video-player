@@ -3,8 +3,7 @@
   cursor: pointer;
   color: white;
   background-color: rgba(0,0,0,0);
-  font-size: 20px;
-  margin: 0 7px;
+  margin: 0 5px;
   width: 25px;
   height: 25px;
 }
@@ -12,6 +11,7 @@
 .control_panel {
   background-color: black;
   display: flex;
+  padding: 9px 0;
 }
 
 .player-container {
